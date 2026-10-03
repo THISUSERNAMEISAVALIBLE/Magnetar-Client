@@ -10,20 +10,27 @@
 
 <br/>
 
-**Magnetar Client** is a feature-rich mod for *Plants Vs. Zombies Fusion* designed to elevate your gameplay experience. It offers comprehensive quality-of-life (QoL) improvements, advanced game modifications, and a fully customizable UI display—all meticulously optimized to maintain peak performance.
-
+**Magnetar Client** is a feature-rich mod menu for PvZ Fusion.
 ---
 
-## ✨ Features
+## Features
 
-* 🛠️ **Built-in Cheats:** Tons of customizable options to tailor your gameplay.
-* 🖥️ **Clean Interface:** A modern, intuitive, and distraction-free user interface.
-* 🎨 **Customizable Display:** Personalize the UI to fit your aesthetic preferences.
-* ⚡ **Lightweight:** Highly optimized code ensures almost zero performance impact.
-* 📕 **Built-in Recipe Table:** Integration with NEF (Not Enough Fusions) to view all available fusion recipes seamlessly.
-
+* #### Quality-of-Life features such as:
+  * Mute sounds, hide/change projectiles and metal objects
+  * Better health display
+  * Alter projectile sizes
+  * Most of these are used to remove annoyances with the game while not changing the game itself.
+               
+* You can customize HUD elements and the user interface freely.
+* Very little performance impact.
+* Integration with NEF (Not Enough Fusions) to view all available fusion recipes.
+* #### Cheats such as: 
+  * Changing sun, money, points, lawnmowers, rerolls, odyssey modifiers, seed packets.
+  * Change almost any cooldown (glove, seed packet, hammer, wheelbarrow).
+  * Change plant speed and projectiles, homing bullets. Force giftbox rng.
+  * Alter zombie hp, speed and waves. Clamp zombies.
+  * Kill/hypnotize all zombies, clear lawn, save setup for later use, illegal placements.
 ---
-
 ## 🎮 Controls
 
 | Action | Keybind |
@@ -34,7 +41,7 @@
 
 ---
 
-## 🚀 Installation Guide
+## Installation Guide
 
 Choose your preferred mod loader below and follow the respective instructions.
 
@@ -49,29 +56,6 @@ Choose your preferred mod loader below and follow the respective instructions.
 5. **Launch** your game to activate the client!
 > **Optional:** Remove the `Blooms_QOL.dll` if you are installing on Multi-lang version, as it might conflict with it.
 
-**Folder Structure**
-After installing the files, your game directory structure should look like this:
-
-```text
-Game-Files/
-├── MelonLoader/
-├── Mods/                    <-- (Paste Mods file in here)
-│   ├── Magnetar Data/
-│   ├── Magnetar Translation/
-│   └── Magnetar Client.dll
-├── PlantsVsZombiesRH_Data/
-├── UserData/
-├── UserLibs/                <-- (Paste UserLibs file in here)
-│   └── DiscordRPC.dll
-├── baselib.dll
-├── GameAssembly.dll
-├── PlantsVsZombiesRH.exe    <-- (Your game executable)
-├── UnityCrashHandler64.exe
-├── UnityPlayer.dll
-└── version.dll
-```
-
----
 
 ### BepInEx
 
