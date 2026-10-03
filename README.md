@@ -1,7 +1,7 @@
 <div align="center">
   <img src="assets/MagnetarClientLogo.png" width="170" alt="Magnetar Client Logo">
   <h1 class="smooth-gradient">Magnetar Client</h1>
-  <p><b>A high-performance utility mod for Plants Vs. Zombies Fusion.</b></p>
+  <p><b>A high-performance utility client for Plants Vs. Zombies Fusion.</b></p>
 
   <img src="https://img.shields.io/github/v/release/Tproplay/Magnetar-Client?style=flat-square&color=blue" alt="Latest Release">
   <img src="https://img.shields.io/github/downloads/Tproplay/Magnetar-Client/total?style=flat-square&color=success" alt="Downloads">
@@ -10,8 +10,7 @@
 
 <br/>
 
-**Magnetar Client** is a feature-rich mod menu for PvZ Fusion.
----
+**Magnetar Client** is a feature-rich mod for *Plants Vs. Zombies Fusion* designed to elevate your gameplay experience. It offers comprehensive quality-of-life (QoL) improvements, advanced game modifications, and a fully customizable UI display—all meticulously optimized to maintain peak performance.
 
 ## Features
 
@@ -45,7 +44,7 @@
 
 Choose your preferred mod loader below and follow the respective instructions.
 
-### MelonLoader
+### 🍉 MelonLoader
 
 > **Note:** Ensure you have [MelonLoader](https://melonwiki.xyz/) installed before proceeding.
 
@@ -56,6 +55,27 @@ Choose your preferred mod loader below and follow the respective instructions.
 5. **Launch** your game to activate the client!
 > **Optional:** Remove the `Blooms_QOL.dll` if you are installing on Multi-lang version, as it might conflict with it.
 
+**Folder Structure**
+After installing the files, your game directory structure should look like this:
+
+```text
+Game-Files/
+├── MelonLoader/
+├── Mods/                    <-- (Paste Mods file in here)
+│   ├── Magnetar Data/
+│   ├── Magnetar Translation/
+│   └── Magnetar Client.dll
+├── PlantsVsZombiesRH_Data/
+├── UserData/
+├── UserLibs/                <-- (Paste UserLibs file in here)
+│   └── DiscordRPC.dll
+├── baselib.dll
+├── GameAssembly.dll
+├── PlantsVsZombiesRH.exe    <-- (Your game executable)
+├── UnityCrashHandler64.exe
+├── UnityPlayer.dll
+└── version.dll
+```
 
 ### BepInEx
 
@@ -122,6 +142,7 @@ After installing the files, your game directory structure should look like this:
 
 * 👑 **Tproplay** — Main Developer
 * 🇻🇳 **Kyzerin9999** — Playtester & Vietnamese Translator
+* 🇪🇸 **UŁTRA_Badlander 400** - Spanish Translator
 * 🧪 **Qwwwww** — Playtester
 * 🧪 **Gosu** — Playtester
 * 🧪 **D2013I** — Playtester
