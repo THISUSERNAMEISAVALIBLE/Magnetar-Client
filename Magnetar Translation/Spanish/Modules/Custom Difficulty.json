@@ -1,6 +1,6 @@
 {
   "Name": "Dificultad personalizada",
-  "Description": "Permite modificar la dificultad.",
+  "Description": "Permite personalizar/modificar una dificultad.",
   "Search Hints": "customdifficulty difficultymodifier difficultysettings scaledifficulty difficultyeditor game difficultyconfig difficultychanger hardmod easymod difficultybalancer customdifficultycustomizer diffeditor difficultyoverride adjustmentmod challengedifficulty difficultyselector diffmanager customchallenge",
   "settings": {
     "General": "General",
