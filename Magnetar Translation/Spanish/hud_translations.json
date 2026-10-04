@@ -54,7 +54,7 @@
     "Name": "Contador de caída de sol espontaneo"
   },
   "Time In Current Level": {
-    "Name": "Tiempo en el nivel actual"
+    "Name": "Tiempo transcurrido en el nivel"
   },
   "Next wave arrival time": {
     "Name": "Tiempo para próxima oleada"
@@ -117,6 +117,6 @@
     "Name": "Nombre de CPU"
   },
   "Current Time": {
-    "Name": "Tiempo actual"
+    "Name": "La Hora"
   }
 }
